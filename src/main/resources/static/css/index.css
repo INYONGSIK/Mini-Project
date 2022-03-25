@@ -1,0 +1,279 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    color:#000;
+ }
+ .body{
+     margin:0;
+ }
+
+ 
+ .btn{
+    background-color:#d49466;
+    border-radius: 20px;
+    width:70px;
+    text-align: center;
+    margin-right: 20px;
+    height: 30px;
+    transform: translate(-25%, -25%);
+    padding-top: 5px;
+    
+ }
+ .wrap1 {
+    height: 100vh;
+    background:url("../image/intro.jpg") no-repeat center;
+    background-size: cover;
+    
+ }
+ .nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 24px 12px;
+     
+ }
+ .logo{
+     font-size:30px;
+     margin-left: 50px;
+ }
+ .logo i {
+     color:#d49466
+ }
+ .logo > a {
+     font-size:24px;
+     color:white;
+ }
+ .nav_middle{
+    display: flex;
+    margin-right: 120px;
+ }
+ .nav_middle li{
+     
+     padding:16px 24px;
+ }
+.nav_middle li a {
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+}
+ .nav_middle li:hover{
+    background-color: #d49466;
+    border-radius: 4px;
+ }
+.nav_right{
+    display: flex;
+    padding: 8px 12px;
+}
+.wrap1_middle{
+    width: 600px;
+    height:400px;
+    margin-top: 250px;
+    margin-left:70px;
+}
+.textBox > span{
+    font-size: 100px;
+   color:#fff;
+   font-weight: 900;
+}
+.textBox2 > span{
+    font-size: 30px;
+    color:#fff;
+    font-weight: 300;
+ }
+
+ .wrap2 {
+    height: 100vh;
+ }
+ .nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 12px;
+    
+}
+.logo2{
+    font-size:30px;
+    margin-left: 50px;
+}
+.logo2 i {
+    color:#d49466
+}
+.logo2 > a {
+    font-size:24px;
+    color:black;
+}
+.nav_middle2{
+    display: flex;
+    margin-right: 120px;
+    
+}
+.nav_middle2 li{
+    padding:16px 24px;
+    
+}
+.nav_middle2 li a {
+   color:black;
+   font-size: 18px;
+   font-weight: bold;
+}
+.nav_middle2 li:hover{
+   background-color: #d49466;
+   border-radius: 4px;
+}
+.nav_right2{
+   display: flex;
+   padding: 8px 12px;
+}
+
+.wrap2_contact_1{
+    text-align: center;
+    height: auto;
+}
+.wrap2_contact_1 h1 {
+    font-family: 'Dongle', sans-serif;
+    
+    font-size:130px;
+    font-weight:700px;
+}
+.wrap2_contact_2{
+    margin-left: 100px;
+   
+}
+.wrap2_contact_2 p {
+    font-family: 'Dongle', sans-serif;
+    font-size:30px;
+}
+
+.item_list{
+    margin-top:60px;
+  
+}
+.card{
+    float: left;
+    margin-left:20px;
+
+}
+.menu{padding:5px; border:1px solid #ccc; border-radius:10px; float:left; margin-right: 10px;
+}
+.menu:hover{background-color: #9c0; cursor:pointer;}
+
+#smenu_2{ 
+    display: none;
+}
+#smenu_3{ 
+    display: none;
+}
+#smenu_4{ 
+    display: none;
+}
+.wrap3{
+   height: 100%;
+}
+
+.logo3{
+    font-size:30px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.logo3 i {
+    color:#d49466
+}
+.logo3  a {
+    font-size:24px;
+    color:white;
+}
+
+ .wrap3_middle h1{
+    color: #fff;
+}
+ .wrap3_left{
+    width: 40%;
+    height:100vh;
+    background-color: #000;
+    float:left;
+} 
+.phone p{
+    font-size: 30px;
+    color:aqua;
+    font-weight: 300;
+}
+.email p{
+    font-size: 30px;
+    color:#fff;
+    font-weight: 300;
+}
+.textbox > span{
+    font-size: 100px;
+   color:#fff;
+   font-weight: 900;
+} 
+ .textbox2 > span{
+    font-size: 30px;
+    color:#fff;
+    font-weight: 300;
+ }
+ .textbox{
+     margin-bottom: 50px;
+ }
+ .textbox2{
+     margin-bottom: 70px;
+ }  
+ .wrap3_left_middle{
+     width: 500px;
+     margin-top: 200px;
+     margin-left:200px;
+    
+ }
+ .wrap3_right{
+    width:60%;
+    height: 100%;
+    float: right;
+    background-color:#fff;
+ }
+ .wrap3_information{
+    
+    margin-top: 300px;
+ }
+ .information {
+    width:500px;
+    position:relative;
+    margin-top:20px;
+    margin-left: 100px;
+}
+.information:first-child{
+    margin-top: 0;
+}
+.information input{
+    width: 500px;
+    padding: 20px 10px 10px;
+    background-color:  transparent;
+    border:none;
+    border-bottom:1px solid #999;
+    font-size: 18px; color: #000;;
+    outline: none;
+}
+.information label{
+    position:absolute; left:10px; top:15px;
+    font-size: 18px; color:#999;
+    transition: all .5s ease;
+}
+.information input:focus + label,
+.information input:valid + label{
+    top:-2px;
+    font-size: 13px; color:#166cea;
+}
+.information_btn button{
+    width: 100px;
+    height: 50px;
+    color:#999;
+    font-size: 20px;
+    border:none;
+    cursor:pointer;
+    margin-left: 50%;
+    margin-top: 30px;
+}
+
